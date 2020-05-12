@@ -1,0 +1,32 @@
+.header {
+    height: 10vh;
+    background-color: lightblue;
+
+}
+.content {
+    padding: 10px 0 10px 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.logo {
+    font-size: 20px;
+}
+a {
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+}
+a:hover {
+
+    background-color: blue;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}

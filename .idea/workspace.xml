@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18f66863-5432-44ff-866e-f9314e803e12" name="Default Changelist" comment="" />
+    <list default="true" id="18f66863-5432-44ff-866e-f9314e803e12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/About-me/About.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/About-me/About.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/My-skills/Skills.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/My-skills/Skills.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Photos/IMG_4332.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/container/Container.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1beZgg7fXBHuh4meQmn2x3Tqa1e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,9 +41,41 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="D:\Training_Files\React_Projects\my-portfolio\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Training_Files\React_Projects\my-portfolio\src\Photos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Training_Files\React_Projects\my-portfolio\src\My-skills" />
+      <recent name="D:\Training_Files\React_Projects\my-portfolio\src\About-me" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -29,8 +87,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588994632618</updated>
-      <workItem from="1588994633935" duration="376000" />
+      <workItem from="1588994633935" duration="9467000" />
+      <workItem from="1589275223120" duration="635000" />
+      <workItem from="1589293241689" duration="2203000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="159" key="FileChooserDialogImpl" timestamp="1589025771209">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="159" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1589025771209" />
   </component>
 </project>

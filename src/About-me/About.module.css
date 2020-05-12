@@ -1,0 +1,23 @@
+.about {
+    height: 90vh;
+    background-color: #ffdee9;
+    padding-top: 200px;
+}
+.content {
+    border: 1px solid black;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.text {
+    text-align: center;
+    width: 300px;
+    font-size: 30px;
+}
+.img {
+    height: 200px;
+    width: 200px;
+    background-color: forestgreen;
+
+}
