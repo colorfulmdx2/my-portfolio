@@ -1,0 +1,26 @@
+.footer {
+    min-height: 400px;
+    background-color: #ebffe4;
+    text-align: center;
+    padding: 50px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 50px;
+    height: 300px;
+    border: 1px solid black;
+}
+.inner {
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.innerElement {
+    background-color: darkgrey;
+    height: 100px;
+    width: 100px;
+}

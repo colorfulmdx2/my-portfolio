@@ -1,6 +1,6 @@
 .skills {
-    padding: 10%;
-    height: 100vh;
+    padding: 100px;
+    min-height: 800px;
     background-color: #ddfee9;
 }
 
@@ -9,17 +9,18 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 .mySkills {
     width: 100%;
     height: 200px;
-
+    margin: 0 30px;
     text-align: center;
 }
 .element {
     border: 1px solid black;
+    margin: 30px;
     padding: 30px;
     height: 250px;
     text-align: center;

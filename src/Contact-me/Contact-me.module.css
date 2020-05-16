@@ -1,0 +1,31 @@
+.contact {
+    padding: 150px;
+    min-height: 800px;
+    background-color: #ffe2e2;
+}
+
+.content {
+
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input {
+    margin: 20px;
+    min-width: 400px;
+
+}
+textarea {
+    margin: 20px;
+    min-width: 400px;
+    height: 100px;
+}
+.button {
+
+  }
+

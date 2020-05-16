@@ -1,18 +1,21 @@
 .header {
-    height: 10vh;
+    padding-top: 15px;
+    height: 100px;
     background-color: lightblue;
 
 }
 .content {
+
     padding: 10px 0 10px 0;
     display: flex;
-    text-align: center;
+
     justify-content: space-between;
 }
 .navigation {
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    flex-wrap: wrap;
+    width: auto;
 }
 .logo {
     font-size: 20px;
