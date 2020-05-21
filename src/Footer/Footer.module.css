@@ -24,3 +24,24 @@
     height: 100px;
     width: 100px;
 }
+
+@media (max-width: 375px) {
+    .footer {
+        padding: 30px 0 0 0;
+    }
+    .content {
+        margin: 0;
+        width: auto;
+    }
+    .inner {
+        /*max-width: 375px;*/
+        width: auto;
+        justify-content: space-around;
+
+    }
+    .innerElement {
+        margin: 5px;
+        max-width: 75px;
+
+    }
+}

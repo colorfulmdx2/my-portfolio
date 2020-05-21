@@ -21,3 +21,9 @@
     background-color: forestgreen;
 
 }
+@media (max-width: 375px) {
+   .about {
+       min-height: 500px;
+       padding-top: 150px;
+   }
+}

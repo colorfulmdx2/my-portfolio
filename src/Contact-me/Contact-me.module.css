@@ -29,3 +29,19 @@ textarea {
 
   }
 
+@media (max-width: 375px) {
+    .contact {
+        padding: 0;
+        min-height: 500px;
+        padding-top: 70px;
+    }
+    .form {
+
+    }
+    input {
+        min-width: 200px;
+    }
+    textarea {
+        min-width: 200px;
+    }
+}

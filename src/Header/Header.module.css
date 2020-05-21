@@ -33,3 +33,14 @@ a:hover {
     color: white;
     transition: all 0.2s ease-in-out;
 }
+
+@media (max-width: 375px) {
+    .navigation {
+        width: 350px;
+        flex-wrap: nowrap;
+
+    }
+    .logo {
+        display: none;
+    }
+}
