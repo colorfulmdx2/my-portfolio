@@ -1,19 +1,31 @@
 import React from 'react';
-import styleAbout from './About.module.css'
+import styleAbout from './About.module.scss'
 import '../container/Container.css'
 
 
 const About = () => {
     return (
         <div className={styleAbout.about}>
-            <div className='container'>
-                <div className={styleAbout.content}>
-                    <div className={styleAbout.text}>
-                        <p>Hi my name is Viktor Berezovskyi. Im front-end developer.</p>
-                    </div>
-                    <div className={styleAbout.img}>
+            <div className={styleAbout.mainHeading}>Viktor Berezovskyi</div>
+            <div className={styleAbout.subHeading}>I'm developer</div>
+            <div className={styleAbout.sideMenu}>
+                <div className={styleAbout.sideLanguages}>
 
-                    </div>
+                    <ul>
+                        <li>
+                            <span>ENG</span>
+                        </li>
+                    </ul>
+                </div>
+                <div className={styleAbout.sidesContacts}>
+                    Sicial Media
+                    {/*<ul>*/}
+                    {/*    <li className={styleAbout.logoTwitter}  ><a><i></i></a></li>*/}
+                    {/*    <li className={styleAbout.logoFaceBook} ><a><i></i></a></li>*/}
+                    {/*    <li className={styleAbout.logoLinkedIn} ><a><i></i></a></li>*/}
+                    {/*    <li className={styleAbout.logoGitHub}   ><a><i></i></a></li>*/}
+                    {/*    <li className={styleAbout.logoInstagram}><a><i></i></a></li>*/}
+                    {/*</ul>*/}
                 </div>
             </div>
 

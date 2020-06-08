@@ -77,7 +77,12 @@ select {
   }
 }
 body {
-  background-color: #edeef0;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+
+}
+*::selection {
+  background-color: #009e66;
 }
 .div {
   margin: 0;

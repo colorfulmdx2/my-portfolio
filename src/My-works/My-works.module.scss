@@ -1,0 +1,13 @@
+.myWorks {
+  background: lightblue;
+  height: 600px;
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    .title {
+      width: 100%;
+      text-align: center;
+      font-size: 40px;
+    }
+  }
+}

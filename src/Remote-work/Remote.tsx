@@ -7,7 +7,7 @@ const Remote = () => {
         <div className={styleRemote.remote}>
             <div className='container'>
                 <div className={styleRemote.content}>
-                    <h2>Dont mind to work remote</h2>
+                    <h2>I Am Available For Freelancer</h2>
                     <div className={styleRemote.button}><button>Hire me</button></div>
                 </div>
             </div>

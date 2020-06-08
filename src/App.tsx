@@ -8,6 +8,7 @@ import Skills from "./My-skills/Skills";
 import Remote from "./Remote-work/Remote";
 import Contact from "./Contact-me/Contact-me";
 import Footer from "./Footer/Footer";
+import MyWorks from "./My-works/My-works";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header/>
       <About/>
       <Skills/>
+      <MyWorks/>
       <Remote/>
       <Contact/>
       <Footer/>

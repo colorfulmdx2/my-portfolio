@@ -1,10 +1,10 @@
 import React from 'react';
-import styleHeader from './Header.module.css'
+import styleHeader from './Header.module.scss'
 import '../container/Container.css'
 const Header = () => {
     return (
         <div className={styleHeader.header}>
-            <div className='container'>
+            <div>
                 <div className={styleHeader.content}>
                     <div className={styleHeader.logo}>
                         LOGO
