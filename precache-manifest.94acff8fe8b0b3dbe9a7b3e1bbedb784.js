@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "244bb36826fa82720747991fbe93ca53",
+    "revision": "4a42b5b455e1973e6c3e783b9329d40b",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "9cc6164ec19e80eab351",
-    "url": "/my-portfolio/static/css/main.1db2c009.chunk.css"
+    "revision": "0ba06cf9d99276fd7f69",
+    "url": "/my-portfolio/static/css/main.45bda854.chunk.css"
   },
   {
-    "revision": "cfe2de5ffa69534e4689",
-    "url": "/my-portfolio/static/js/2.f6079431.chunk.js"
+    "revision": "0b3a2884be2c206e9495",
+    "url": "/my-portfolio/static/js/2.221c70b6.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/my-portfolio/static/js/2.f6079431.chunk.js.LICENSE.txt"
+    "url": "/my-portfolio/static/js/2.221c70b6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9cc6164ec19e80eab351",
-    "url": "/my-portfolio/static/js/main.a6f00f3d.chunk.js"
+    "revision": "0ba06cf9d99276fd7f69",
+    "url": "/my-portfolio/static/js/main.19534e0e.chunk.js"
   },
   {
     "revision": "6d7a7337562760299d40",
     "url": "/my-portfolio/static/js/runtime-main.00bba678.js"
+  },
+  {
+    "revision": "26e8ee43621d2c01f2a3d6d5ddb135b7",
+    "url": "/my-portfolio/static/media/Fuego_de_Refineria.26e8ee43.mp4"
   },
   {
     "revision": "49f5495c2fae9b6c189e8a6d86832410",
@@ -38,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b800642f9b50a5708cb6deb640a3d343",
     "url": "/my-portfolio/static/media/linked-in.b800642f.svg"
+  },
+  {
+    "revision": "c5c83a6138d1d764d5a0c3774a5e81c8",
+    "url": "/my-portfolio/static/media/react.c5c83a61.svg"
   },
   {
     "revision": "0b8e44d798065e658fb35fb60248ebf8",

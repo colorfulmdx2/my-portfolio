@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.1db2c009.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.a6f00f3d.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.a6f00f3d.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.45bda854.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.19534e0e.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.19534e0e.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.00bba678.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.00bba678.js.map",
-    "static/js/2.f6079431.chunk.js": "/my-portfolio/static/js/2.f6079431.chunk.js",
-    "static/js/2.f6079431.chunk.js.map": "/my-portfolio/static/js/2.f6079431.chunk.js.map",
+    "static/js/2.221c70b6.chunk.js": "/my-portfolio/static/js/2.221c70b6.chunk.js",
+    "static/js/2.221c70b6.chunk.js.map": "/my-portfolio/static/js/2.221c70b6.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.6887d5c5011fb0893bfe76882cacbb72.js": "/my-portfolio/precache-manifest.6887d5c5011fb0893bfe76882cacbb72.js",
+    "precache-manifest.94acff8fe8b0b3dbe9a7b3e1bbedb784.js": "/my-portfolio/precache-manifest.94acff8fe8b0b3dbe9a7b3e1bbedb784.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/css/main.1db2c009.chunk.css.map": "/my-portfolio/static/css/main.1db2c009.chunk.css.map",
-    "static/js/2.f6079431.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.f6079431.chunk.js.LICENSE.txt",
+    "static/css/main.45bda854.chunk.css.map": "/my-portfolio/static/css/main.45bda854.chunk.css.map",
+    "static/js/2.221c70b6.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.221c70b6.chunk.js.LICENSE.txt",
+    "static/media/Fuego_de_Refineria.mp4": "/my-portfolio/static/media/Fuego_de_Refineria.26e8ee43.mp4",
     "static/media/facebook.svg": "/my-portfolio/static/media/facebook.49f5495c.svg",
     "static/media/git-hub.svg": "/my-portfolio/static/media/git-hub.bb281b23.svg",
     "static/media/instagram.svg": "/my-portfolio/static/media/instagram.36e36bb5.svg",
     "static/media/linked-in.svg": "/my-portfolio/static/media/linked-in.b800642f.svg",
+    "static/media/react.svg": "/my-portfolio/static/media/react.c5c83a61.svg",
     "static/media/twitter.svg": "/my-portfolio/static/media/twitter.0b8e44d7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.00bba678.js",
-    "static/js/2.f6079431.chunk.js",
-    "static/css/main.1db2c009.chunk.css",
-    "static/js/main.a6f00f3d.chunk.js"
+    "static/js/2.221c70b6.chunk.js",
+    "static/css/main.45bda854.chunk.css",
+    "static/js/main.19534e0e.chunk.js"
   ]
 }
