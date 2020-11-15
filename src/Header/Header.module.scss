@@ -1,82 +1,150 @@
 @import '../sass/variables';
 
 .header {
-    padding:23px 50px;
-    height: 100px;
+  height: 100px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
 
-    .content {
-        padding: 10px 0 10px 0;
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: 23px auto;
 
-        display: flex;
-        justify-content: space-between;
-        .logo {
-            font-size: $textSize;
-            color: $textColor;
-            @media (max-width: 375px) {
-                    display: none;
-            }
-        }
-        .navigation {
+    .logo {
+      font-size: $textSize;
+      color: $textWhiteColor;
 
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
+      img {
+        height: 60px;
+      }
 
 
-            width: auto;
-            a {
-                padding: 5px;
-                font-size: $textSize;
-                text-decoration: none;
-                color: $textColor;
-                border-radius: 15px;
-            }
-            @media (max-width: 375px) {
-                    width: 350px;
-                    flex-wrap: nowrap;
-                }
-        }
     }
 
-}
-/*.content {
-
-    padding: 10px 0 10px 0;
-    display: flex;
-
-    justify-content: space-between;
-}*/
-/*.navigation {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: auto;
-}*/
-/*.logo {
-    font-size: 20px;
-}*/
-/*a {
-    padding: 5px;
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-    border-radius: 15px;
-}*/
-/*a:hover {
-
-    background-color: blue;
-    color: white;
-    transition: all 0.2s ease-in-out;
-}*/
-
-/*
-@media (max-width: 375px) {
     .navigation {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: auto;
+      @media (max-width: 575.98px) {
+        display: none;
+      }
+
+      a {
+        font-size: $textSize;
+        text-decoration: none;
+        color: $textWhiteColor;
+        border-radius: 15px;
+      }
+
+      a:not(:last-child) {
+        margin-right: 32px;
+      }
+
+      @media (max-width: 375px) {
         width: 350px;
         flex-wrap: nowrap;
+      }
+    }
 
+    .burger {
+      z-index: 100;
+      display: none;
+      margin-left: auto;
+      position: relative;
+
+      &::before {
+        position: absolute;
+        top: -10px;
+        right: 0;
+        content: '';
+        width: 25.5px;
+        height: 3px;
+        background: white;
+        z-index: 1000;
+        @media (max-width: 575.98px) {
+          display: block;
+
+        }
+      }
+
+      &::after {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        content: '';
+        width: 30px;
+        height: 3px;
+        background: white;
+        @media (max-width: 575.98px) {
+          display: block;
+
+        }
+
+      }
+
+      @media (max-width: 575.98px) {
+        margin-left: auto;
+        display: block;
+        width: 16.5px;
+        height: 3px;
+        background: white;
+
+      }
     }
-    .logo {
+
+    .small_menu_container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 50;
+      height: 100vh;
+      width: 100vw;
+
+      .open {
+        height: 170px !important;
+      }
+
+      .small_menu {
+        z-index: 100;
+        background: #191919;
+        position: absolute;
+        right: 14px;
+        top: 83px;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+        transition: all .3s ease-in-out;
+        height: 0;
+        overflow: hidden;
+
+
+        a {
+          display: block;
+          width: 100%;
+          font-size: $textSize;
+          text-decoration: none;
+          color: $textWhiteColor;
+          border-radius: 15px;
+
+        }
+
+        a:not(:last-child) {
+          margin-bottom: 10px;
+        }
+      }
+
+      .small_menu_hidden {
         display: none;
+      }
     }
-}*/
+
+  }
+
+}

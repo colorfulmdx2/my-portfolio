@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f66863-5432-44ff-866e-f9314e803e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/My-works/My-works.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/My-works/My-works.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/My-works/Work-element/Work-element.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/My-works/Work-element/Work-element.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/git-hub.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/linked-in.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/About-me/images-components/twitter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/video/Fuego_de_Refineria.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/About-me/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/About-me/About.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/About-me/About.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/About-me/About.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/About-me/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/About-me/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Remote-work/Remote.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Remote-work/Remote.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/Container.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/Container.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/My-works/Work-element" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../type-script-social-network" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -114,7 +103,27 @@
       <workItem from="1589625214401" duration="35000" />
       <workItem from="1590073121708" duration="7785000" />
       <workItem from="1590140204302" duration="100000" />
-      <workItem from="1591609140142" duration="13301000" />
+      <workItem from="1591609140142" duration="13333000" />
+      <workItem from="1591780450374" duration="13106000" />
+      <workItem from="1591850110634" duration="44000" />
+      <workItem from="1591850408195" duration="12000" />
+      <workItem from="1591850469509" duration="3000" />
+      <workItem from="1591855878135" duration="6578000" />
+      <workItem from="1592467789573" duration="3129000" />
+      <workItem from="1592504135661" duration="32000" />
+      <workItem from="1592505604071" duration="234000" />
+      <workItem from="1592584712649" duration="689000" />
+      <workItem from="1594649160410" duration="3879000" />
+      <workItem from="1595857240733" duration="916000" />
+      <workItem from="1597744620964" duration="1341000" />
+      <workItem from="1602574132303" duration="10867000" />
+      <workItem from="1602734289827" duration="3740000" />
+      <workItem from="1602771191743" duration="916000" />
+      <workItem from="1603188471711" duration="2325000" />
+      <workItem from="1603610160925" duration="888000" />
+      <workItem from="1604496489266" duration="26000" />
+      <workItem from="1604496575760" duration="608000" />
+      <workItem from="1605255339881" duration="34266000" />
     </task>
     <task id="LOCAL-00001" summary="verstka">
       <created>1589295479914</created>
@@ -158,11 +167,25 @@
       <option name="project" value="LOCAL" />
       <updated>1590083843987</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="verstka">
+      <created>1591651915418</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591651915418</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../cards/node_modules/wait-for-expect/lib/toBeInRangeMatcher.d.js" />
+        <option value="$PROJECT_DIR$/../cards/node_modules/wait-for-expect/lib/waitForExpect.spec.d.js" />
+        <option value="$PROJECT_DIR$/../cards/node_modules/wait-for-expect/lib/index.d.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -170,54 +193,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="verstka" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="423" y="0" key="CommitChangelistDialog2" timestamp="1590083843174">
+    <state x="640" y="159" key="FileChooserDialogImpl" timestamp="1605268615567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="422" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1589624307147" />
-    <state x="2258" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1590077161521" />
-    <state x="423" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590083843174" />
-    <state x="451" y="194" key="EditFileWatcherDialog" timestamp="1591610251230">
+    <state x="640" y="159" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605268615567" />
+    <state x="2432" y="103" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1602746974713" />
+    <state x="448" y="232" key="run.anything.popup" timestamp="1605446646333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="451" y="194" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1591610251230" />
-    <state x="640" y="159" key="FileChooserDialogImpl" timestamp="1590140302522">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="159" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1589625247420" />
-    <state x="640" y="159" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590140302522" />
-    <state x="772" y="365" key="Github.ShareDialog" timestamp="1589295705490">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="772" y="365" key="Github.ShareDialog/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1589295705490" />
-    <state width="1503" height="180" key="GridCell.Tab.0.bottom" timestamp="1590083928449">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1887" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1590073233423" />
-    <state width="1503" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1590078523944" />
-    <state width="1503" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590083928449" />
-    <state width="1503" height="180" key="GridCell.Tab.0.center" timestamp="1590083928449">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1887" height="252" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1590073233422" />
-    <state width="1503" height="180" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1590078523944" />
-    <state width="1503" height="180" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590083928449" />
-    <state width="1503" height="180" key="GridCell.Tab.0.left" timestamp="1590083928449">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1887" height="252" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1590073233422" />
-    <state width="1503" height="180" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1590078523944" />
-    <state width="1503" height="180" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590083928449" />
-    <state width="1503" height="180" key="GridCell.Tab.0.right" timestamp="1590083928449">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1887" height="252" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1590073233423" />
-    <state width="1503" height="180" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1590078523944" />
-    <state width="1503" height="180" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590083928449" />
-    <state x="353" y="37" key="Vcs.Push.Dialog.v2" timestamp="1590083847096">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="352" y="122" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1589624316700" />
-    <state x="2202" y="29" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1590077169110" />
-    <state x="353" y="37" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590083847096" />
+    <state x="448" y="232" key="run.anything.popup/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605446646333" />
   </component>
 </project>

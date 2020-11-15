@@ -1,21 +1,54 @@
-import React from 'react';
-import styleHeader from './Header.module.scss'
+import React, {useState} from 'react';
+import style from './Header.module.scss'
 import '../container/Container.css'
+import react from '../assets/images/react.svg'
+
+
+
 const Header = () => {
+
+    const [burger, setBurger] = useState(false)
+
+    const burgerChange = () => {
+        setBurger(!burger)
+    }
+
+
+
     return (
-        <div className={styleHeader.header}>
+        <div className={style.header}>
             <div>
-                <div className={styleHeader.content}>
-                    <div className={styleHeader.logo}>
-                        LOGO
+                <div className={style.content}>
+
+                    <div className={style.logo}>
+                        <img src={react}/>
                     </div>
-                    <div className={styleHeader.navigation}>
-                        <a href='/'>Home</a>
-                        <a href='/'>Work</a>
-                        <a href='/'>Services</a>
+
+                    <div className={style.navigation}>
+                        <a href='/'>About</a>
+                        <a href='/'>Resume</a>
+                        <a href='/'>Portfolio</a>
                         <a href='/'>Blog</a>
-                        <a href='/'>Contacts</a>
+                        <a href='/'>Contact</a>
                     </div>
+
+                    <div className={style.burger}
+                         onClick={burgerChange}
+                         onBlur={burgerChange}>
+                    </div>
+
+                    {
+                         <div className={style.small_menu_container} >
+                            <div className={burger ? style.small_menu + ' ' + style.open : style.small_menu}>
+                                <a href='/'>About</a>
+                                <a href='/'>Resume</a>
+                                <a href='/'>Portfolio</a>
+                                <a href='/'>Blog</a>
+                                <a href='/'>Contact</a>
+                            </div>
+                        </div>
+                    }
+
                 </div>
             </div>
         </div>

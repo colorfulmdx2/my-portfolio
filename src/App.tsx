@@ -13,13 +13,16 @@ import MyWorks from "./My-works/My-works";
 function App() {
   return (
     <div>
-      <Header/>
+
       <About/>
-      <Skills/>
-      <MyWorks/>
-      <Remote/>
-      <Contact/>
-      <Footer/>
+        {
+            false && <Contact/>
+        }
+      {/*<Skills/>*/}
+      {/*<MyWorks/>*/}
+      {/*<Remote/>*/}
+
+      {/*<Footer/>*/}
     </div>
   );
 }
