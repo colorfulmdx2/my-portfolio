@@ -35,7 +35,7 @@ video {
 .app:after {
     content: '';
     background: black;
-    opacity: 0.8;
+    opacity: 0.6;
     position: absolute;
     top: 0;
     left: 0;

@@ -82,7 +82,7 @@ body {
 
 }
 *::selection {
-  background-color: #009e66;
+  background-color: deepskyblue;
 }
 .div {
   margin: 0;
