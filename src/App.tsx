@@ -9,8 +9,8 @@ function App() {
     return (
         <div className={'app'}>
 
-            <video height="150%" width="auto" src={_video} preload="auto" autoPlay={true}
-                   loop={true} muted={true}></video>
+           {/* <video height="150%" width="auto" src={_video} preload="auto" autoPlay={true}
+                   loop={true} muted={true}></video>*/}
 
             <About/>
 
