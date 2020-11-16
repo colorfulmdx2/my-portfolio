@@ -34,11 +34,11 @@ const Header = () => {
 
                     <div className={style.burger}
                          onClick={burgerChange}
-                         onBlur={burgerChange}>
+                         >
                     </div>
 
                     {
-                         <div className={style.small_menu_container} >
+                       burger &&  <div className={style.small_menu_container} onClick={() => {setBurger(false)}}>
                             <div className={burger ? style.small_menu + ' ' + style.open : style.small_menu}>
                                 <a href='/'>About</a>
                                 <a href='/'>Resume</a>

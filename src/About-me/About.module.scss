@@ -2,20 +2,14 @@
 
 
 .about {
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
   overflow: hidden;
 
-  .video {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -2;
-    transform: translateY(26px);
-  }
+
   .headingsWrapper {
     width: 100%;
     margin: 350px auto 0 auto;
@@ -23,6 +17,9 @@
 
     @media (max-height: 736px) {
       margin: 280px auto 0 auto;
+    }
+    @media (max-height: 375px) {
+      margin: 220px auto 0 auto;
     }
 
 
@@ -150,12 +147,17 @@
       display: none;
     }
 
+    a {
+
+    }
+
     img {
       height: 30px;
     }
 
     .contactElement {
       margin-bottom: 10px;
+      cursor: pointer;
     }
 
   }

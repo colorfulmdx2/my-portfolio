@@ -1,30 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
-import Header from "./Header/Header";
-import About from "./About-me/About";
-import Skills from "./My-skills/Skills";
-import Remote from "./Remote-work/Remote";
 import Contact from "./Contact-me/Contact-me";
-import Footer from "./Footer/Footer";
-import MyWorks from "./My-works/My-works";
+import About from "./About-me/About";
+//@ts-ignore
+import _video from "./assets/video/blue.mp4";
 
 function App() {
-  return (
-    <div>
+    return (
+        <div className={'app'}>
 
-      <About/>
-        {
-            false && <Contact/>
-        }
-      {/*<Skills/>*/}
-      {/*<MyWorks/>*/}
-      {/*<Remote/>*/}
+            <video height="150%" width="auto" src={_video} preload="auto" autoPlay={true}
+                   loop={true} muted={true}></video>
 
-      {/*<Footer/>*/}
-    </div>
-  );
+            <About/>
+
+            {
+                false && <Contact/>
+            }
+
+        </div>
+    );
 }
 
 export default App;
