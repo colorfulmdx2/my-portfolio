@@ -34,7 +34,7 @@ const About = () => {
             <Header/>
 
             <div className={style.headingsWrapper}>
-                <div className={style.mainHeading}>Viktor Berezovsky</div>
+                <div className={style.mainHeading}>Viktor Berezovskyi</div>
                 <div className={style.subHeading}>I'm a
                     <div className={(num === 0) ? style.span : style.span + ' ' + style.hidden_span}><span
                         style={{color: 'white'}}>{'Developer'}</span></div>

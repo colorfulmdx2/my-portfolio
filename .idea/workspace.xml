@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f66863-5432-44ff-866e-f9314e803e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/video/Fuego_de_Refineria.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/video/blue.m4v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/boxes.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/gif.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/kosmos.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/unnamed.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/About-me/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/About-me/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/video/blue1.m4v" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/video" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,11 +52,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Training_Files\React_Projects\my-portfolio\src\assets\images" />
       <recent name="D:\Training_Files\React_Projects\my-portfolio\src\assets\video" />
       <recent name="D:\Training_Files\React_Projects\my-portfolio\src\My-works\Work-element" />
       <recent name="D:\Training_Files\React_Projects\my-portfolio\src\Footer" />
       <recent name="D:\Training_Files\React_Projects\my-portfolio\src\Contact-me" />
-      <recent name="D:\Training_Files\React_Projects\my-portfolio\src\About-me" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Training_Files\React_Projects\my-portfolio\src\Contact-me" />
@@ -118,7 +121,7 @@
       <workItem from="1604496489266" duration="26000" />
       <workItem from="1604496575760" duration="608000" />
       <workItem from="1605255339881" duration="47975000" />
-      <workItem from="1605538202445" duration="161000" />
+      <workItem from="1605538202445" duration="2150000" />
     </task>
     <task id="LOCAL-00001" summary="verstka">
       <created>1589295479914</created>
@@ -183,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605532929786</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="verstka">
+      <created>1605538398005</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605538398005</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,19 +216,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="565" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605538235094" />
-    <state x="422" y="0" key="CommitChangelistDialog2" timestamp="1605537295232">
+    <state x="422" y="0" key="CommitChangelistDialog2" timestamp="1605538396014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="422" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605537295232" />
+    <state x="422" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605538396014" />
     <state x="640" y="159" key="FileChooserDialogImpl" timestamp="1605268615567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="159" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605268615567" />
     <state x="2432" y="103" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1602746974713" />
-    <state x="352" y="122" key="Vcs.Push.Dialog.v2" timestamp="1605537297390">
+    <state x="352" y="122" key="Vcs.Push.Dialog.v2" timestamp="1605538399650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="352" y="122" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605537297390" />
+    <state x="352" y="122" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605538399650" />
     <state x="448" y="232" key="run.anything.popup" timestamp="1605446646333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

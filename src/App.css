@@ -1,11 +1,18 @@
 ::-webkit-scrollbar {
     width: 0px;
     background: rgba(255, 255, 255, 0.0);
+
 }
 body {
     min-width: 300px;
     height: 100vh;
+
+    background: url("assets/images/boxes.gif") no-repeat;
+    background-size: 100%;
+
 }
+
+
 video {
     position: absolute;
     bottom: 0;
@@ -14,12 +21,15 @@ video {
     right: 0;
     z-index: -20;
 
+
 }
 
 .app {
     height: 100vh;
     overflow: hidden;
     position: relative;
+
+
 }
 
 .app:after {
