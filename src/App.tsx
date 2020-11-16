@@ -3,7 +3,7 @@ import './App.css';
 import Contact from "./Contact-me/Contact-me";
 import About from "./About-me/About";
 //@ts-ignore
-import _video from "./assets/video/blue1.m4v";
+import _video from "./assets/video/Fuego_de_Refineria.mp4";
 
 function App() {
     return (
