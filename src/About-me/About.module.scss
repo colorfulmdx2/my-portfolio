@@ -12,16 +12,8 @@
 
   .headingsWrapper {
     width: 100%;
-    margin: 350px auto 0 auto;
+    margin:  0 auto;
     padding: 0 10px 0 10px;
-
-    @media (max-height: 736px) {
-      margin: 280px auto 0 auto;
-    }
-    @media (max-height: 375px) {
-      margin: 220px auto 0 auto;
-    }
-
 
     .mainHeading {
       font-size: $mainHeadingSize;

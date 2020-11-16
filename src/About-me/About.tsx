@@ -34,7 +34,7 @@ const About = () => {
             <Header/>
 
             <div className={style.headingsWrapper}>
-                <div className={style.mainHeading}>Viktor Berezovskyi</div>
+                <div className={style.mainHeading}>Viktor Berezovskyiiiiiii</div>
                 <div className={style.subHeading}>I'm a
                     <div className={(num === 0) ? style.span : style.span + ' ' + style.hidden_span}><span
                         style={{color: 'white'}}>{'Developer'}</span></div>
@@ -50,7 +50,7 @@ const About = () => {
                     <div className={style.leng}>RU</div>
                 </div>
                 <div className={style.sidesContacts}>
-                    <div className={style.contactElement} ><a href={'twitter.com'}><img src={twitter}/></a></div>
+                    <div className={style.contactElement} ><a href='https://www.twitch.tv/'><img src={twitter}/></a></div>
                     <div className={style.contactElement} ><a href={'facebook.com'}><img src={facebook}/></a></div>
                     <div className={style.contactElement} ><a href={'twitter.com'}><img src={linked}/></a></div>
                     <div className={style.contactElement} ><a href={'twitter.com'}><img src={git}/></a></div>
