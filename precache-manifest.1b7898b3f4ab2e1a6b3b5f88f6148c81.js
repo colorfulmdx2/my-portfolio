@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec4c7634655a1521e63359b975af22b9",
+    "revision": "2472ea726191f6c2d4684afa85681444",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "aae1ccf9370ab3e48cde",
+    "revision": "ef4d0ceb2031fc58a12b",
     "url": "/my-portfolio/static/css/main.e6af6fde.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/js/2.221c70b6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aae1ccf9370ab3e48cde",
-    "url": "/my-portfolio/static/js/main.fb728650.chunk.js"
+    "revision": "ef4d0ceb2031fc58a12b",
+    "url": "/my-portfolio/static/js/main.f894ac07.chunk.js"
   },
   {
     "revision": "6d7a7337562760299d40",
     "url": "/my-portfolio/static/js/runtime-main.00bba678.js"
   },
   {
-    "revision": "2be95d6e92e096392d1dcd3c1e34a523",
-    "url": "/my-portfolio/static/media/blue1.2be95d6e.m4v"
+    "revision": "26e8ee43621d2c01f2a3d6d5ddb135b7",
+    "url": "/my-portfolio/static/media/Fuego_de_Refineria.26e8ee43.mp4"
   },
   {
     "revision": "49f5495c2fae9b6c189e8a6d86832410",
