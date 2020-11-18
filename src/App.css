@@ -5,8 +5,7 @@
 }
 body {
     min-width: 300px;
-    height: 100vh;
-
+    overflow: hidden;
     background: url("assets/images/boxes.gif") no-repeat;
     background-size: cover;
 
@@ -25,17 +24,14 @@ video {
 }
 
 .app {
-    height: 100vh;
-    overflow: hidden;
     position: relative;
-
 
 }
 
 .app:after {
     content: '';
     background: black;
-    opacity: 0.6;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     left: 0;

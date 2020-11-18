@@ -1,17 +1,18 @@
 import React, {useEffect, useState} from 'react';
-import style from './About.module.scss'
+import style from './Main.module.scss'
 // import '../container/Container.css'
 import twitter from '../assets/images/twitter.svg'
 import facebook from '../assets/images/facebook.svg'
 import git from '../assets/images/git-hub.svg'
 import instagram from '../assets/images/instagram.svg'
 import linked from '../assets/images/linked-in.svg'
-import Header from "../Header/Header";
-// @ts-ignore
-import _video from '../assets/video/Fuego.mp4'
+import Header from "../_a2 - header/Header";
 
+type MainPropsType = {
+    aboutHandler: () => void
+}
 
-const About = () => {
+export const Main = (props: MainPropsType) => {
 
     const [num, setNum] = useState(0);
 
@@ -26,12 +27,12 @@ const About = () => {
 
 
     return (
-        <div className={style.about}
+        <div className={style.main}
              onClick={() => {
              }}>
 
 
-            <Header/>
+            <Header aboutHandler={props.aboutHandler}/>
 
             <div className={style.headingsWrapper}>
                 <div className={style.mainHeading}>Viktor Berezovskyi</div>
@@ -63,5 +64,5 @@ const About = () => {
     )
 }
 
-export default About;
+
 

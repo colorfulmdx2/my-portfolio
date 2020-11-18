@@ -34,14 +34,15 @@
         display: none;
       }
 
-      a {
+      .link {
         font-size: $textSize;
         text-decoration: none;
         color: $textWhiteColor;
         border-radius: 15px;
+        cursor: pointer;
       }
 
-      a:not(:last-child) {
+      .link:not(:last-child) {
         margin-right: 32px;
       }
 
@@ -125,7 +126,7 @@
         overflow: hidden;
 
 
-        a {
+        .small_link {
           display: block;
           width: 100%;
           font-size: $textSize;
@@ -135,7 +136,7 @@
 
         }
 
-        a:not(:last-child) {
+        .small_link:not(:last-child) {
           margin-bottom: 10px;
         }
       }
@@ -147,4 +148,6 @@
 
   }
 
+
 }
+
