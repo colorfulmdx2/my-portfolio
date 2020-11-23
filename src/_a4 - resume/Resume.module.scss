@@ -1,0 +1,109 @@
+@import '../sass/variables';
+
+.title {
+
+  .title__pre_title {
+    text-align: center;
+    color: $textColor;
+    font-size: $textSize;
+    margin-bottom: 10px;
+
+  }
+
+  .title__title {
+    text-align: center;
+    color: $headingColor;
+    font-size: $headingSize;
+    font-weight: bold;
+  }
+}
+
+.skill_lines {
+  margin-top: 100px;
+  .skill_lines__pre_title {
+    color: $textColor;
+    font-size: $textSize;
+    margin-bottom: 10px;
+    @media (max-width: 900px) {
+      width: 90%;
+      margin: 0 auto 10px auto;
+    }
+  }
+
+  .skill_lines__title {
+    color: $headingColor;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    @media (max-width: 900px) {
+      width: 90%;
+      margin: 0 auto  50px auto;
+    }
+
+  }
+
+  .skill_lines__lines_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .skill_container {
+      width: 48%;
+      margin-bottom: 30px;
+      @media (max-width: 900px) {
+        width: 90%;
+        margin: 0 auto 30px auto;
+      }
+      .skill_info {
+        display: flex;
+        justify-content: space-between;
+        .skill_info__element {
+          color: $textColor;
+          font-size: $textSize;
+        }
+      }
+      .skill_line {
+        display: flex;
+        justify-content: space-between;
+        height: 10px;
+        position: relative;
+        .skill_line__first {
+          background: $mainColor;
+          z-index: 1;
+        }
+        .skill_line__last {
+          background: gray;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+}
+
+.more_skills {
+  color: $mainColor;
+  font-size: $headingSize;
+  font-weight: bold;
+  margin-top: 100px;
+  @media (max-width: 900px) {
+    width: 90%;
+    margin: 0 auto;
+  }
+  @media (max-width: 424px) {
+    font-size: 30px;
+  }
+
+  span {
+    font-size: $mainHeadingSize;
+    color: $headingColor;
+    font-weight: bold;
+    margin-right: 50px;
+    @media (max-width: 670px) {
+      font-size: 60px;
+    }
+
+  }
+}

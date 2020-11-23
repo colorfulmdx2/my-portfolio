@@ -5,6 +5,7 @@ import react from '../assets/images/react.svg'
 
 type HeaderPropsType = {
     aboutHandler: () => void
+    resumeHandler: () => void
 }
 
 
@@ -27,11 +28,12 @@ const Header = (props: HeaderPropsType) => {
                     </div>
 
                     <div className={style.navigation}>
-                        <div className={style.link} onClick={() => {
-                            props.aboutHandler()
-                        }}>About
-                        </div>
-                        <div className={style.link}>Resume</div>
+                        <div className={style.link}
+                             onClick={() => {props.aboutHandler()}}
+                        >About</div>
+                        <div className={style.link}
+                             onClick={() => {props.resumeHandler()}}
+                        >Resume</div>
                         <div className={style.link}>Portfolio</div>
                         <div className={style.link}>Blog</div>
                         <div className={style.link}>Contact</div>
@@ -39,15 +41,13 @@ const Header = (props: HeaderPropsType) => {
 
                     <div className={style.burger}
                          onClick={burgerChange}
-                        /*onBlur={() => {setBurger(false)}}*/
+
                     >
                         {
-                             <div className={style.small_menu_container} onClick={() => {
-                                setBurger(false)
-                            }}>
+                             <div className={style.small_menu_container} onClick={burgerChange}>
                                 <div className={burger ? style.small_menu + ' ' + style.open : style.small_menu}>
                                     <div className={style.small_link} onClick={() => {props.aboutHandler()}}>About</div>
-                                    <div className={style.small_link} onClick={() => {props.aboutHandler()}}>Resume</div>
+                                    <div className={style.small_link} onClick={() => {props.resumeHandler()}}>Resume</div>
                                     <div className={style.small_link} onClick={() => {props.aboutHandler()}}>Portfolio</div>
                                     <div className={style.small_link} onClick={() => {props.aboutHandler()}}>Blog</div>
                                     <div className={style.small_link} onClick={() => {props.aboutHandler()}}>Contact</div>

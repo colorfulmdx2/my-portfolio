@@ -10,6 +10,7 @@ import Header from "../_a2 - header/Header";
 
 type MainPropsType = {
     aboutHandler: () => void
+    resumeHandler: () => void
 }
 
 export const Main = (props: MainPropsType) => {
@@ -32,7 +33,8 @@ export const Main = (props: MainPropsType) => {
              }}>
 
 
-            <Header aboutHandler={props.aboutHandler}/>
+            <Header aboutHandler={props.aboutHandler}
+                    resumeHandler={props.resumeHandler}/>
 
             <div className={style.headingsWrapper}>
                 <div className={style.mainHeading}>Viktor Berezovskyi</div>

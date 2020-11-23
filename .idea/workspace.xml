@@ -2,37 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f66863-5432-44ff-866e-f9314e803e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_a3 - about/About.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_a3 - about/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/mee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_a4 - resume/Resume.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_a4 - resume/Resume.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/skills-images/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/skills-images/fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/skills-images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/skills-images/responsive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/skills-images/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/skills-images/web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/animated-line/Animated-line.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/animated-line/Animated-line.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/page-container/Page-container.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/page-container/Page-container.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/About-me/About.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a1 - main/Main.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/About-me/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a1 - main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/About-me/images-components/twitter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a1 - main/images-components/twitter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contact-me/Contact-me.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contact-me/Contact-me.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a2 - header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a2 - header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/My-skills/Skills.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/My-skills/Skills.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/My-works/My-works.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/My-works/My-works.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/My-works/Work-element/Work-element.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/My-works/Work-element/Work-element.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Photos/IMG_4332.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Remote-work/Remote.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Remote-work/Remote.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/Container.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_a1 - main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a1 - main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_a2 - header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a2 - header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_a2 - header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a2 - header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_a3 - about/About.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a3 - about/About.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_a3 - about/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a3 - about/About.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cards" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -144,7 +133,7 @@
       <workItem from="1604496489266" duration="26000" />
       <workItem from="1604496575760" duration="608000" />
       <workItem from="1605255339881" duration="47975000" />
-      <workItem from="1605538202445" duration="32047000" />
+      <workItem from="1605538202445" duration="52761000" />
     </task>
     <task id="LOCAL-00001" summary="verstka">
       <created>1589295479914</created>
@@ -244,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605542233114</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="verstka">
+      <created>1605718798160</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605718798160</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,19 +263,23 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="565" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605620219101" />
-    <state x="422" y="0" key="CommitChangelistDialog2" timestamp="1605542232178">
+    <state x="422" y="0" key="CommitChangelistDialog2" timestamp="1605718785765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="422" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605542232178" />
-    <state x="640" y="159" key="FileChooserDialogImpl" timestamp="1605268615567">
+    <state x="422" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605718785765" />
+    <state x="640" y="159" key="FileChooserDialogImpl" timestamp="1606116467024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="159" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605268615567" />
+    <state x="640" y="159" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1606116467024" />
     <state x="2432" y="103" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1602746974713" />
-    <state x="352" y="122" key="Vcs.Push.Dialog.v2" timestamp="1605542234591">
+    <state x="352" y="122" key="Vcs.Push.Dialog.v2" timestamp="1605718788061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="352" y="122" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605542234591" />
+    <state x="352" y="122" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605718788061" />
+    <state x="449" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606132665389">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="449" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1606132665389" />
     <state x="448" y="232" key="run.anything.popup" timestamp="1605446646333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

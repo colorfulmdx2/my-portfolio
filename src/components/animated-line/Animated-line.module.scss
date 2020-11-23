@@ -1,0 +1,55 @@
+@import '../../sass/variables';
+
+.line {
+  background: $mainColor;
+  width: 75px;
+  height: 4px;
+  margin: 30px auto 0 auto;
+  position: relative;
+
+
+  &:before {
+    content: '';
+    background: #111111;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: animation;
+    animation-timing-function: linear;
+    @keyframes animation {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(75px, 0);
+      }
+    }
+
+
+  }
+
+  &:after {
+    content: '';
+    background: #111111;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    left: 8px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: animation;
+    animation-timing-function: linear;
+    @keyframes animation {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(75px, 0);
+      }
+    }
+
+  }
+}
