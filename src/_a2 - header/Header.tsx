@@ -6,6 +6,7 @@ import react from '../assets/images/react.svg'
 type HeaderPropsType = {
     aboutHandler: () => void
     resumeHandler: () => void
+    portfolioHandler: () => void
 }
 
 
@@ -34,7 +35,9 @@ const Header = (props: HeaderPropsType) => {
                         <div className={style.link}
                              onClick={() => {props.resumeHandler()}}
                         >Resume</div>
-                        <div className={style.link}>Portfolio</div>
+                        <div className={style.link}
+                             onClick={() => {props.portfolioHandler()}}
+                        >Portfolio</div>
                         <div className={style.link}>Blog</div>
                         <div className={style.link}>Contact</div>
                     </div>
@@ -48,7 +51,7 @@ const Header = (props: HeaderPropsType) => {
                                 <div className={burger ? style.small_menu + ' ' + style.open : style.small_menu}>
                                     <div className={style.small_link} onClick={() => {props.aboutHandler()}}>About</div>
                                     <div className={style.small_link} onClick={() => {props.resumeHandler()}}>Resume</div>
-                                    <div className={style.small_link} onClick={() => {props.aboutHandler()}}>Portfolio</div>
+                                    <div className={style.small_link} onClick={() => {props.portfolioHandler()}}>Portfolio</div>
                                     <div className={style.small_link} onClick={() => {props.aboutHandler()}}>Blog</div>
                                     <div className={style.small_link} onClick={() => {props.aboutHandler()}}>Contact</div>
 

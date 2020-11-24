@@ -54,7 +54,7 @@ export const Resume = (props: ResumePropsType) => {
                 <div className={style.more_skills}>
                     <span>And more...</span>
                     SCSS, SASS, Module CSS, React-Router-Dom, Axios, ClassNames, jest,
-                    Material UI, Ant Design, React Amimation, Node.Js, Yarn, NPM, React Reveal
+                    Material UI, Ant Design, React Animation, Node.Js, Yarn, NPM, React Reveal, TDD
                 </div>
 
             </PageContainer>
