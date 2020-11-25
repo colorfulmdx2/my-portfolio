@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f66863-5432-44ff-866e-f9314e803e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_a6 - contacts/Contacts.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_a6 - contacts/Contacts.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/contacts-images/email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/contacts-images/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/contacts-images/name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/contacts-images/tag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/contacts-images/telegram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/forest.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/loadcat.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/new_boxes.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/input/Input.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/input/Input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/skill-label/Skill-label.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/skill-label/SkillLabel.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_a1 - main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a1 - main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_a2 - header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a2 - header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_a4 - resume/Resume.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a4 - resume/Resume.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_a4 - resume/Resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a4 - resume/Resume.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_a5 - portfolio/Portfolio.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a5 - portfolio/Portfolio.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_a5 - portfolio/Portfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_a5 - portfolio/Portfolio.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +116,7 @@
       <workItem from="1604496575760" duration="608000" />
       <workItem from="1605255339881" duration="47975000" />
       <workItem from="1605538202445" duration="65174000" />
-      <workItem from="1606285402840" duration="21990000" />
+      <workItem from="1606285402840" duration="22580000" />
     </task>
     <task id="LOCAL-00001" summary="verstka">
       <created>1589295479914</created>
@@ -263,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606225937037</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="verstka">
+      <created>1606325219247</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606325219247</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,20 +271,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="565" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1606291473345" />
-    <state x="422" y="0" key="CommitChangelistDialog2" timestamp="1606225933830">
+    <state x="422" y="0" key="CommitChangelistDialog2" timestamp="1606325213783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="422" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1606225933830" />
+    <state x="422" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1606325213783" />
     <state x="2258" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1606149789327" />
     <state x="640" y="159" key="FileChooserDialogImpl" timestamp="1606287126058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="159" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1606287126058" />
     <state x="2432" y="103" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1602746974713" />
-    <state x="352" y="122" key="Vcs.Push.Dialog.v2" timestamp="1606225942078">
+    <state x="352" y="122" key="Vcs.Push.Dialog.v2" timestamp="1606325222753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="352" y="122" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1606225942078" />
+    <state x="352" y="122" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1606325222753" />
     <state x="2202" y="29" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1536.824@1920.0.1536.824" timestamp="1606149794517" />
     <state x="449" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606294248445">
       <screen x="0" y="0" width="1920" height="1040" />

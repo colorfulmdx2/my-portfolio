@@ -14,7 +14,7 @@ export const App = () => {
         setAbout(!about)
     }
 
-    const [resume, setResume] = useState<boolean>(true)
+    const [resume, setResume] = useState<boolean>(false)
     const resumeHandler = () => {
         setResume(!resume)
     }
