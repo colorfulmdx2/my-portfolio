@@ -2,6 +2,7 @@ import React from "react";
 import {PageContainer} from "../components/page-container/Page-container";
 import style from './Resume.module.scss'
 import {AnimatedLine} from "../components/animated-line/Animated-line";
+import {SkillLabel} from "../components/skill-label/Skill-label";
 
 type ResumePropsType = {
     resumeHandler: () => void
@@ -15,7 +16,8 @@ type SkillPropsType = {
 
 export const Resume = (props: ResumePropsType) => {
 
-
+    let arraySkills = ['SCSS', 'SASS', 'Module CSS', 'React-Router-Dom', 'Axios', 'ClassNames', 'jest',
+        'Material UI', 'Ant Design', 'React Animation', 'Node.Js', 'Yarn', 'NPM', 'React Reveal', 'TDD']
 
     return (
         <>
@@ -52,9 +54,14 @@ export const Resume = (props: ResumePropsType) => {
                 </div>
 
                 <div className={style.more_skills}>
-                    <span>And more...</span>
-                    SCSS, SASS, Module CSS, React-Router-Dom, Axios, ClassNames, jest,
-                    Material UI, Ant Design, React Animation, Node.Js, Yarn, NPM, React Reveal, TDD
+                    <span className={style.more_skills_title}>And more...</span>
+
+                   <div className={style.container}>
+                       {
+                           arraySkills.map((element, index) => <SkillLabel title={arraySkills[index]}/>)
+                       }
+                   </div>
+
                 </div>
 
             </PageContainer>

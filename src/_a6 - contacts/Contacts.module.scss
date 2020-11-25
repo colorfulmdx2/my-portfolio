@@ -1,0 +1,207 @@
+@import '../../src/sass/variables';
+
+
+.title {
+
+  .title__pre_title {
+    text-align: center;
+    color: $textColor;
+    font-size: $textSize;
+    margin-bottom: 10px;
+
+  }
+
+  .title__title {
+    text-align: center;
+    color: $headingColor;
+    font-size: $headingSize;
+    font-weight: bold;
+  }
+}
+
+.contacts {
+  margin-top: 100px;
+  .contacts__form_container {
+    display: grid;
+    grid-template-columns: 58% 38%;
+    grid-template-rows: 100%;
+    grid-gap: 4%;
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      padding: 0 30px;
+    }
+    @media (max-width: 760px) {
+
+    }
+
+    form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      @media (max-width: 767px) {
+        &:after {
+          margin-top: 20px;
+          content: '';
+          width: 100%;
+          height: 1px;
+          background: #343434;
+        }
+      }
+
+
+      .form__title {
+        margin-bottom: 25px;
+        color: white;
+        font-size: 20px;
+        width: 50%;
+      }
+
+      .form__first_row {
+        margin-bottom: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 40px;
+        grid-gap: 25px;
+        @media (max-width: 767px) {
+          grid-template-columns: 1fr;
+          grid-template-rows: 40px 40px;
+
+        }
+      }
+
+      .form__second_row {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40px 167px;
+        grid-gap: 25px;
+
+      }
+      /*&:after {
+        margin-top: 20px;
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: #343434;
+      }*/
+    }
+
+    .links_container {
+      align-self: flex-start;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      color: $textColor;
+
+
+      .links_container__title {
+        margin-bottom: 10px;
+        color: white;
+        font-size: 20px;
+        width: 50%;
+      }
+
+      .links_container__post_title {
+        font-size: $textSize;
+        margin-bottom: 30px;
+        line-height: 1.95
+      }
+
+      .links {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+
+        &:before {
+          position: absolute;
+          top: 0;
+          left: 65px;
+          content: '';
+          height: 92%;
+          width: 2px;
+          background: #343434;
+        }
+
+        .links_contacts {
+          display: flex;
+          justify-content: flex-start;
+          flex-direction: column;
+
+          .links_contacts__element {
+
+            height: 60px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            img {
+              height: 40px;
+              margin-right: 50px;
+            }
+
+            .links_contacts__element__title_container {
+
+              .links_contacts__element__title {
+                color: white;
+                font-weight: bold;
+              }
+
+              .links_contacts__element__post_title {
+                a {
+                  text-decoration: none;
+                  color: $mainColor;
+                }
+              }
+            }
+
+          }
+        }
+
+
+      }
+
+
+    }
+  }
+
+}
+
+input, textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  resize: none;
+  padding-left: 10px;
+  border-bottom: 2px solid #161616;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: #161616;
+  outline: none;
+
+  color: $textColor;
+
+  &:focus {
+    border-bottom: 2px solid $mainColor;
+    transition: all .1s linear;
+  }
+}
+
+button {
+  margin-top: 20px;
+  background: $mainColor;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: max-content;
+  align-self: center;
+}
+

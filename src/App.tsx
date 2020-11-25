@@ -4,6 +4,7 @@ import {Main} from "./_a1 - main/Main";
 import {About} from "./_a3 - about/About";
 import {Resume} from "./_a4 - resume/Resume";
 import {Portfolio} from "./_a5 - portfolio/Portfolio";
+import {Contacts} from "./_a6 - contacts/Contacts";
 
 
 export const App = () => {
@@ -13,14 +14,19 @@ export const App = () => {
         setAbout(!about)
     }
 
-    const [resume, setResume] = useState<boolean>(false)
+    const [resume, setResume] = useState<boolean>(true)
     const resumeHandler = () => {
         setResume(!resume)
     }
 
-    const [portfolio, setPortfolio] = useState<boolean>(true)
+    const [portfolio, setPortfolio] = useState<boolean>(false)
     const portfolioHandler = () => {
         setPortfolio(!portfolio)
+    }
+
+    const [contacts, setContacts] = useState<boolean>(false)
+    const contactsHandler = () => {
+        setContacts(!contacts)
     }
 
     return (
@@ -28,7 +34,9 @@ export const App = () => {
 
             <Main aboutHandler={aboutHandler}
                   resumeHandler={resumeHandler}
-                  portfolioHandler={portfolioHandler}/>
+                  portfolioHandler={portfolioHandler}
+                  contactsHandler={contactsHandler}
+            />
 
 
             <About aboutHandler={aboutHandler}
@@ -40,6 +48,10 @@ export const App = () => {
 
             <Portfolio portfolioHandler={portfolioHandler}
                        portfolio={portfolio}
+            />
+
+            <Contacts contacts={contacts}
+                      contactsHandler={contactsHandler}
             />
 
 

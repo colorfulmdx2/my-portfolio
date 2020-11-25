@@ -12,6 +12,7 @@ type MainPropsType = {
     aboutHandler: () => void
     resumeHandler: () => void
     portfolioHandler: () => void
+    contactsHandler: () => void
 }
 
 export const Main = (props: MainPropsType) => {
@@ -37,6 +38,7 @@ export const Main = (props: MainPropsType) => {
             <Header aboutHandler={props.aboutHandler}
                     resumeHandler={props.resumeHandler}
                     portfolioHandler={props.portfolioHandler}
+                    contactsHandler={props.contactsHandler}
             />
 
             <div className={style.headingsWrapper}>

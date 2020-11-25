@@ -28,19 +28,19 @@ export const Portfolio = (props: PortfolioPropsType) => {
 
                 <div className={style.title__title}>Portfolio</div>
 
-                <AnimatedLine/>
+            </div>
 
-                <div className={style.cases}>
+            <AnimatedLine/>
 
-                    <Project image={network} title={'Social network'}/>
-                    <Project image={movies} title={'Top movies'}/>
-                    <Project image={todolist} title={'To Do list'}/>
+            <div className={style.cases}>
 
-
-                </div>
+                <Project image={network} title={'Social network'}/>
+                <Project image={movies} title={'Top movies'}/>
+                <Project image={todolist} title={'To Do list'}/>
 
 
             </div>
+
 
         </PageContainer>
     )

@@ -7,6 +7,7 @@ type HeaderPropsType = {
     aboutHandler: () => void
     resumeHandler: () => void
     portfolioHandler: () => void
+    contactsHandler: () => void
 }
 
 
@@ -38,8 +39,9 @@ const Header = (props: HeaderPropsType) => {
                         <div className={style.link}
                              onClick={() => {props.portfolioHandler()}}
                         >Portfolio</div>
-                        <div className={style.link}>Blog</div>
-                        <div className={style.link}>Contact</div>
+                        <div className={style.link}
+                             onClick={() => {props.contactsHandler()}}
+                        >Contact</div>
                     </div>
 
                     <div className={style.burger}
@@ -52,8 +54,7 @@ const Header = (props: HeaderPropsType) => {
                                     <div className={style.small_link} onClick={() => {props.aboutHandler()}}>About</div>
                                     <div className={style.small_link} onClick={() => {props.resumeHandler()}}>Resume</div>
                                     <div className={style.small_link} onClick={() => {props.portfolioHandler()}}>Portfolio</div>
-                                    <div className={style.small_link} onClick={() => {props.aboutHandler()}}>Blog</div>
-                                    <div className={style.small_link} onClick={() => {props.aboutHandler()}}>Contact</div>
+                                    <div className={style.small_link}  onClick={() => {props.contactsHandler()}}>Contact</div>
 
                                 </div>
                             </div>
