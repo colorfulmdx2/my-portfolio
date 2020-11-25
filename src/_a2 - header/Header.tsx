@@ -35,7 +35,7 @@ const Header = (props: HeaderPropsType) => {
                         >About</div>
                         <div className={style.link}
                              onClick={() => {props.resumeHandler()}}
-                        >Resume</div>
+                        >Skills</div>
                         <div className={style.link}
                              onClick={() => {props.portfolioHandler()}}
                         >Portfolio</div>
@@ -52,7 +52,7 @@ const Header = (props: HeaderPropsType) => {
                              <div className={style.small_menu_container} onClick={burgerChange}>
                                 <div className={burger ? style.small_menu + ' ' + style.open : style.small_menu}>
                                     <div className={style.small_link} onClick={() => {props.aboutHandler()}}>About</div>
-                                    <div className={style.small_link} onClick={() => {props.resumeHandler()}}>Resume</div>
+                                    <div className={style.small_link} onClick={() => {props.resumeHandler()}}>Skills</div>
                                     <div className={style.small_link} onClick={() => {props.portfolioHandler()}}>Portfolio</div>
                                     <div className={style.small_link}  onClick={() => {props.contactsHandler()}}>Contact</div>
 
